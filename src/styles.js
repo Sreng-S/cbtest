@@ -29,7 +29,12 @@ export default StyleSheet.create({
     marginTop: 124
   },
   buttonWrapper: {
-    margin: 40,
-    flex: 1
+    flex: 1,
+    flexDirection: 'row',
+    left: 0,
+    margin: 'auto'
+  },
+  buttonAlign: {
+    alignSelf: 'flex-start'
   }
 })

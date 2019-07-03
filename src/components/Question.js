@@ -16,17 +16,18 @@ export default class Question extends Component {
     }))
     return (
       <View style={styles.card}>
-        <Text style={styles.subTitle}>Category {question.category}</Text>
         <Text style={styles.body}>{question.question}</Text>
         <View style={styles.buttonWrapper}>
           <FlatList
             data={answers}
             renderItem={({ item }) => (
-              <Button
-                primary
-                onPress={() => this.props.answer(item.title)}
-                text={item.title}
-              />
+              <View style={styles.buttonAlign}>
+                <Button
+                  primary
+                  onPress={() => this.props.answer(item.title)}
+                  text={`➡ ${item.title}`}
+                />
+              </View>
             )}
           />
         </View>

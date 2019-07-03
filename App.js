@@ -54,11 +54,7 @@ export default class App extends Component {
           {!this.state.started && (
             <View style={styles.card}>
               <Text style={styles.title}>Trivia</Text>
-              <Text style={styles.body}>
-                a trivia game or competition is one where the competitors are
-                asked questions about interesting but unimportant facts in many
-                subjects
-              </Text>
+              <Text style={styles.body}>☘ Crowdbotics Testing App ☘</Text>
               <View style={styles.buttonWrapper}>
                 <Button
                   onPress={this.start}
