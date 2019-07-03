@@ -15,7 +15,7 @@
 
 Here are the results:
 
-![Test Image 1] (/assets/img/Screenshot 2019-07-03 17.06.50.png)
-![Test Image 2](/assets/img/Screenshot 2019-07-03 17.07.08.png)
-![Test Image 3](./assets/img/Screenshot 2019-07-03 17.07.24.png)
-![Test Image 4](./assets/img/Screenshot 2019-07-03 17.08.28.png)
+![Test Image 1](assets/img/01.png)
+![Test Image 2](assets/img/02.png)
+![Test Image 3](assets/img/03.png)
+![Test Image 4](assets/img/04.png)
